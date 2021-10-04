@@ -1,0 +1,445 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    background-color: #e8eff0;
+}
+
+.header.row
+{
+    padding:20px 0;
+}
+
+.logo__heading
+{
+    color:#4b4b4b;
+}
+
+.nav-bar-list 
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-bar-item 
+{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 3px solid #4b4b4b;
+    font-weight: 600;
+}
+
+.nav-bar-item:first-child
+{
+    padding-left: 0;
+}
+
+.nav-bar-item:last-child
+{
+    border-right: none;
+}
+
+.nav-bar-item a 
+{
+    text-decoration: none;
+    color:#4b4b4b;
+}
+
+.sign-up__container
+{
+    background-color: #fcfcfc;
+}
+
+.sign-up__desc
+{
+    font-weight: 700;
+    margin: 14px;
+}
+
+.mail-input__container
+{
+    margin:14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-input
+{
+    width: 450px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.btn-subscribe
+{
+    background-color: #bbc9d4;
+    color: #525e6a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-subscribe:hover 
+{
+    background-color:#a0adb8;
+    cursor: pointer;
+}
+
+.featured-deal__container
+{
+    background-color:#fcfcfc;
+    padding: 30px;
+}
+
+.deal__desc
+{
+    color:#4b4b4b;
+}
+
+.featured__img
+{
+    width: 620px;
+    height: 320px;
+    background-color: #ef5741;
+    border: 4px solid white;
+    box-shadow: 5px 5px 2px #e5e5e5;
+    margin: 20px 0;
+}
+
+.featured__desc
+{
+    color: #8c8b8c;
+}
+
+.featured-deal__info
+{
+    background-color: #f6f6f6;
+    text-align: center;
+    margin:30px;
+    border-radius: 10px;
+}
+
+.featured-deal__header
+{
+    color: #b2b2b2;
+    padding-top: 30px;
+}
+
+.date__desc
+{
+    font-weight: 700;
+    color:#454545;
+    font-size: 20px;
+}
+
+.discount__desc
+{
+    font-weight: 700;
+    color:#b2b2b2;
+    font-size: 17px;
+}
+
+.discount__percent
+{
+    font-weight: 700;
+    font-size: 80px;
+    color:#454545;
+    line-height: 80px;
+}
+
+.deadl-value-and-your-save__wrap
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.deal-value__desc, .your-save__desc
+{
+    color:#b2b2b2;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.deal-value__money, .your-save__money
+{
+    color:#454545;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.social__wrap
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    padding-bottom: 30px;
+}
+
+.tweet__wrap, .facebook__wrap 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tweet__desc,.facebook__desc
+{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.tweet__desc:hover,.facebook__desc:hover
+{
+    cursor: pointer;
+}
+
+.tweet__icon
+{
+    margin-right: 6px;
+    color:#2299cc;
+}
+
+.tweet__desc
+{
+    color:#2299cc;
+}
+
+.facebook__icon 
+{
+    margin-right: 6px;
+    color:#3b5998;
+}
+
+.facebook__desc
+{
+    color:#3b5998;
+}
+
+.buy-deal-btn
+{
+    width: 350px;
+    height: 100px;
+    background-color: #c8de87;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 2px #ccc;
+}
+
+.buy-deal-btn:hover 
+{
+    cursor: pointer;
+}
+
+.btn-buy__desc
+{
+    font-size: 36px;
+    font-weight: 700;
+    color: #5d7730;
+    margin-bottom: 0;
+    line-height: 100px;
+    text-align: center;
+}
+
+.client-logo__wrap
+{
+    background-color: #fefefe;
+    height: 120px;
+}
+
+.client-logo__desc
+{
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size:30px;
+    line-height: 120px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #c6c6c6;
+}
+
+.deal-item__wrap
+{
+    background-color: #fcfcfc;
+}
+
+.deal-item__wrap
+{
+    padding:20px;
+}
+
+.deal-item__heading
+{
+    color:#454545;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.deal-item__img
+{
+    background-color: #ef5741;
+    width: 100%;
+    height: 200px;
+}
+
+.deal-info-item__wrap
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+
+.deal-value-item__desc,.discount-item__desc,.your-save-item__desc
+{
+    font-weight: 700;
+    color:#a7a7a7;
+    margin-bottom: 0;
+}
+
+.deal-value-item__money,.discount-item__percent,.your-save-item__money
+{
+    text-align: center;
+    color:#454545;
+    font-weight: 700;
+}
+
+.deal-time-and-detail__wrap
+{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.deal-time
+{
+    color:#8c8b8c;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.btn-see-detail
+{
+    width: 100px;
+    height: 40px;
+    background-color: #aad064;
+    border-radius: 8px;
+}
+
+.btn-see-detail:hover
+{
+    background-color: #b2d670;
+    cursor: pointer;
+}
+
+.btn-see-deatail__desc
+{
+    text-align: center;
+    line-height:40px;
+    color:#7e9552;
+    font-weight: 600;
+}
+
+.footer
+{
+    padding:20px 24px;
+    background-color: #fcfcfc;
+}
+
+.about__heading, .twitter__heading, .other-pages__heading
+{
+    color:#454545;
+    font-weight: 700;
+}
+
+.about__desc, .twitter-content, .other-pages__desc
+{
+    color: #b0b0b0;
+    font-weight: 500;
+}
+
+.about__desc
+{
+    margin-top: 20px;
+}
+
+.twitter-content__wrap
+{
+    margin-top: 20px;
+}
+
+.twitter-content
+{
+    margin-bottom: 12px;
+}
+
+.btn-one-day
+{
+    margin-bottom: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: #e9e9e9;
+    border-radius: 8px;
+}
+
+.btn-one-day:hover 
+{
+    background-color: #d8d8d8;
+    cursor: pointer;
+}
+
+.btn-one-day__desc
+{
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    color:#ababab;
+}
+
+.twitter-content--highlight
+{
+    color:#68803e;
+}
+
+.other-pages__desc
+{
+    margin-top: 20px;
+    color:#68803e;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.copyright
+{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.copyright__desc
+{
+    margin-bottom: 4px;
+    color: #abadad;
+    font-weight: 600;
+}
+
+.copyright__desc--hightlight
+{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+
+
+
